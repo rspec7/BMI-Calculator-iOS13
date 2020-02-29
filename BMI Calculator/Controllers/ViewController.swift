@@ -12,6 +12,8 @@ class ViewController: UIViewController {
 
 	@IBOutlet weak var heightSliderLabel: UILabel!
 	@IBOutlet weak var weightSliderLabel: UILabel!
+	@IBOutlet weak var heightSlider: UISlider!
+	@IBOutlet weak var weightSlider: UISlider!
 	
 	var height: Double = 1.5
 	var weight: Int = 100
@@ -35,6 +37,12 @@ class ViewController: UIViewController {
 		weightSliderLabel.text = "\(weight)Kg"
 	}
 	
+	@IBAction func calculatePressed(_ sender: UIButton) {
+		let height = heightSlider.value
+		let weight = weightSlider.value
+		// Calculate bmi equation. pow(height, 2) is equivalent to (height * height)
+		let bmi = weight / pow(height, 2)
+
+	}
 }
 
-//first comment
