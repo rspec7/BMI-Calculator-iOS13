@@ -42,7 +42,13 @@ class ViewController: UIViewController {
 		let weight = weightSlider.value
 		// Calculate bmi equation. pow(height, 2) is equivalent to (height * height)
 		let bmi = weight / pow(height, 2)
-
+		
+		// Access SecondViewController
+		let secondVC = SecondViewController()
+		secondVC.bmiValue = String(format: "%.1f", bmi)
+		
+		self.present(secondVC, animated: true, completion: nil)
+		
 	}
 	//lets make another change
 }
