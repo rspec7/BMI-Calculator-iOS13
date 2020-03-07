@@ -18,10 +18,12 @@ class ResultViewController: UIViewController {
 	override func viewDidLoad() {
         super.viewDidLoad()
 
-        
+		bmiLabel.text = bmiValue
     }
-    
+  
+	// Dismisses ResultViewController to bring us back to CalculateViewController
 	@IBAction func recalculatePressed(_ sender: Any) {
+		self.dismiss(animated: true, completion: nil)
 	}
 	
     /*

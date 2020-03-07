@@ -131,7 +131,6 @@
                         <outlet property="weightSlider" destination="s2X-C5-Zcz" id="yCW-gd-M1s"/>
                         <outlet property="weightSliderLabel" destination="LTF-aL-8qu" id="e9N-xV-lXp"/>
                         <segue destination="lkq-xS-Cin" kind="presentation" identifier="goToResult" id="2FG-2Q-ffG"/>
-                        <segue destination="9ht-Eh-Ffb" kind="presentation" id="RLP-LA-uvL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -215,21 +214,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4fn-rV-g4l" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="916" y="138"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="eZ1-Tx-3Ct">
-            <objects>
-                <viewController id="9ht-Eh-Ffb" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="wuz-1r-Px4">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="XaY-Bd-H84"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="t4p-af-6yz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="930" y="891"/>
         </scene>
     </scenes>
     <resources>
